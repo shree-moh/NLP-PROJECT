@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 2. Download SQuAD 2.0 data
 Place train-v2.0.json and dev-v2.0.json in squad/Data/
-Download from official SQuAD site
+Download from the official SQuAD site
 
 3. (Optional) Fine-tune your QA model
 bash
