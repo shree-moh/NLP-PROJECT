@@ -1,0 +1,28 @@
+# Core deep learning and transformer libraries
+torch>=1.10.0
+transformers>=4.38.0
+datasets
+sentence-transformers
+peft
+
+# For translation and multilingual models
+# (NLLB and other translation models are supported by transformers)
+
+# For vector database and similarity search (optional, for advanced RAG)
+faiss-cpu  # For local vector search; comment out if not using or using Pinecone/Qdrant
+# qdrant-client  # Uncomment if using Qdrant as vector DB
+# pinecone-client  # Uncomment if using Pinecone as vector DB
+
+# For PubMed API and HTTP requests
+requests
+
+# Utilities
+numpy
+scikit-learn  # For evaluation, metrics, or clustering (optional but common)
+tqdm  # For progress bars
+
+# For logging and configuration
+pyyaml  # For config.yaml support
+
+# For Jupyter notebooks (if you use notebooks/)
+notebook
